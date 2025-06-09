@@ -301,7 +301,7 @@ SUBASTA/
 
 ### Remix IDE
 1. Copiar el código de `Auction.sol`
-2. Compilar con Solidity ^0.8.19
+2. Compilar con Solidity ^0.8.29
 3. Desplegar con parámetros apropiados
 
 ---
