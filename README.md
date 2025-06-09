@@ -186,9 +186,9 @@ Recuperación de fondos después de 30 días de finalizada la subasta
 
 ### Despliegue del Contrato
 ```javascript
-// Duración: 1 hora (3600 segundos)
-// Beneficiario: dirección que recibirá la oferta ganadora
-// Descripción: artículo en subasta
+// Duración: 5 dias global (432000 segundos)
+// Beneficiario: 0x13FFe7Bbe3709baDFaF9ca06721d59dda1f1ddE2
+// Descripción: Obra de arte digital única
 const auction = await Auction.deploy(
     3600,
     "0x742d35Cc6635C0532925a3b8D7389C7b8b1c6c3f",
@@ -295,29 +295,9 @@ await auction.withdraw();
 SUBASTA/
 ├── Auction.sol          # Contrato principal
 ├── README.md           # Documentación completa
-└── tests/              # (Opcional) Archivos de testing
-    ├── Auction.test.js
-    └── fixtures/
 ```
 
 ## 🚀 Deployment
-
-### Hardhat
-```javascript
-const { ethers } = require("hardhat");
-
-async function main() {
-    const Auction = await ethers.getContractFactory("Auction");
-    const auction = await Auction.deploy(
-        3600,                    // 1 hora
-        "0xBeneficiaryAddress", // Dirección beneficiaria
-        "Descripción del item"  // Descripción
-    );
-    
-    await auction.deployed();
-    console.log("Auction deployed to:", auction.address);
-}
-```
 
 ### Remix IDE
 1. Copiar el código de `Auction.sol`
@@ -332,7 +312,7 @@ MIT License - Ver archivo LICENSE para más detalles.
 
 ## 👨‍💻 Desarrollado por
 
-Experto en Solidity - Smart Contract de Subasta Avanzada
+Wilver Arriaza
 
 ---
 
