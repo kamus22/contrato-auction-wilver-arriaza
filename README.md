@@ -315,5 +315,3 @@ MIT License - Ver archivo LICENSE para más detalles.
 Wilver Arriaza
 
 ---
-
-**⚡ ¡El contrato está listo para ser desplegado y utilizado!**
