@@ -1,4 +1,4 @@
-# 🎯 Smart Contract de Subasta
+# 🎯 Smart Contract de Subasta - Auction
 
 Un contrato inteligente avanzado de subasta implementado en Solidity que incluye reembolsos parciales, extensión automática de tiempo y comisiones.
 
