@@ -186,7 +186,7 @@ Recuperación de fondos después de 30 días de finalizada la subasta
 
 ### Despliegue del Contrato
 ```javascript
-// Duración: 5 dias global (432000 segundos)
+// Duración: 5 días global (432000 segundos)
 // Beneficiario: 0x13FFe7Bbe3709baDFaF9ca06721d59dda1f1ddE2
 // Descripción: Obra de arte digital única
 const auction = await Auction.deploy(
